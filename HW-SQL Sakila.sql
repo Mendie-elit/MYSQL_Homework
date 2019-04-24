@@ -130,7 +130,7 @@ SHOW CREATE TABLE address;
 
 -- 7a Display the titles of movies starting with letters K and Q and are in English
 SELECT title, language_id 
-FROM filmfilm
+FROM film
 WHERE title LIKE 'Q%' or title LIKE 'K%' = ANY
     (
      SELECT language_id
