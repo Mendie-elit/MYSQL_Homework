@@ -60,11 +60,13 @@ WHERE first_name="GROUCHO";
 
 SELECT first_name, last_name
 FROM actor
-WHERE first_name="HARPO"
+WHERE first_name="HARPO";
 
 -- 4d use one line of command to change HARPO back to GROUCHO
 
-UPDATE actor SET first_name="GROUCHO" WHERE first_name="HARPO";
+UPDATE actor 
+SET first_name="GROUCHO" 
+WHERE first_name="HARPO";
 
 SELECT first_name, last_name
 FROM actor
